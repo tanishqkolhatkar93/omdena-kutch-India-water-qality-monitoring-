@@ -67,6 +67,9 @@ You can filter water quality predictions based on:
 📝 **Note 2**: Shorter or longer ranges will not generate results.
 
 ---
+## Project Demo  
+
+![](images/screenshot.png)
 
 ## 🎯 Project Goal
 
