@@ -1,57 +1,83 @@
-# Water Quality Monitoring
 
+# 🌊 Water Quality Monitoring – Kutch (Omdena Project)
 
-## Contribution Guidelines
-- Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
-- If you're creating a task, Go to the task folder and create a new folder with the below naming convention and add a README.md with task details and goals to help other contributors understand
-    - Task Folder Naming Convention : _task-n-taskname.(n is the task number)_  ex: task-1-data-analysis, task-2-model-deployment etc.
-    - Create a README.md with a table containing information table about all contributions for the task.
-- If you're contributing for a task, please make sure to store in relavant location and update the README.md information table with your contribution details.
-- Make sure your File names(jupyter notebooks, python files, data sheet file names etc) has proper naming to help others in easily identifing them.
-- Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion. 
+This is a collaborative Omdena project aimed at monitoring and predicting water quality in the Kutch region using satellite data from **Google Earth Engine**. By analyzing environmental and geographical parameters, the project visualizes and forecasts water quality, helping stakeholders make informed decisions.
 
-## Project Structure
+🔗 **Project Dashboard**: [Kutch Water Quality Monitoring](https://kutch-water-quality-monitoring.herokuapp.com/)
 
-    ├── LICENSE
-    ├── README.md          <- The top-level README for developers/collaborators using this project.
-    ├── original           <- Original Source Code of the challenge hosted by omdena. Can be used as a reference code for the current project goal.
-    │ 
-    │
-    ├── reports            <- Folder containing the final reports/results of this project
-    │   └── README.md      <- Details about final reports and analysis
-    │ 
-    │   
-    ├── src                <- Source code folder for this project
-        │
-        ├── data           <- Datasets used and collected for this project
-        │   
-        ├── docs           <- Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
-        │
-        ├── references     <- Data dictionaries, manuals, and all other explanatory references used 
-        │
-        ├── tasks          <- Master folder for all individual task folders
-        │
-        ├── visualizations <- Code and Visualization dashboards generated for the project
-        │
-        └── results        <- Folder to store Final analysis and modelling results and code.
---------
+---
 
-## Folder Overview
+## 📁 Project Structure
 
-- Original          - Folder Containing old/completed Omdena challenge code.
-- Reports           - Folder to store all Final Reports of this project
-- Data              - Folder to Store all the data collected and used for this project 
-- Docs              - Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
-- References        - Folder to store any referneced code/research papers and other useful documents used for this project
-- Tasks             - Master folder for all tasks
-  - All Task Folder names should follow specific naming convention
-  - All Task folder names should be in chronologial order (from 1 to n)
-  - All Task folders should have a README.md file with task Details and task goals along with an info table containing all code/notebook files with their links and information
-  - Update the [task-table](./src/tasks/README.md#task-table) whenever a task is created and explain the purpose and goals of the task to others.
-- Visualization     - Folder to store dashboards, analysis and visualization reports
-- Results           - Folder to store final analysis modelling results for the project.
+```
+├── LICENSE
+├── README.md          <- Top-level overview for developers and collaborators.
+├── original           <- Source code from the original Omdena challenge (reference only).
+├── reports            <- Final reports/results of the project.
+│   └── README.md
+├── src
+│   ├── data           <- Datasets used and collected.
+│   ├── docs           <- Task documentation, meeting notes, workflow diagrams.
+│   ├── references     <- Research papers, manuals, data dictionaries.
+│   ├── tasks          <- Master folder for individual task contributions.
+│   ├── visualizations <- Visual dashboards and data visualizations.
+│   └── results        <- Final modeling and analysis results.
+```
 
-## Project Dashboard Link:
-   https://kutch-water-quality-monitoring.herokuapp.com/
+---
 
+## ✅ Contribution Guidelines
 
+📌 Before contributing, **read this carefully**:
+
+- **Create a task**:
+  - Go to the `tasks/` folder.
+  - Create a new folder using this naming format:  
+    `task-n-taskname` (e.g., `task-1-data-collection`, `task-2-model-training`)
+  - Add a `README.md` in your task folder with:
+    - Task overview
+    - Goals
+    - A **contribution table** listing contributors and their files.
+
+- **If you're contributing to an existing task**:
+  - Add your work in the relevant task folder.
+  - Update that task's `README.md` contribution table with:
+    - Your file name
+    - Description
+    - Contributor name
+    - File link (optional)
+
+- **File naming**:
+  - Use clear, self-explanatory names for Jupyter notebooks, Python files, data files, etc.
+  - Avoid creating folders outside the `tasks/` directory unless approved.
+
+---
+
+## 🌐 Dashboard Filters (For Water Body Selection)
+
+You can filter water quality predictions based on:
+
+- **Water Body Type**
+- **Area of Interest**
+- **Latitude**: `23.0063`
+- **Longitude**: `72.6026`
+- **Start Date**: Select between `2019-01-01` or `2021-11-01`
+- **End Date**: Select between `2019-01-15` or `2021-12-31`
+
+📝 **Note 1**: Date range must be between **15 days** and **3 months**.  
+📝 **Note 2**: Shorter or longer ranges will not generate results.
+
+---
+
+## 🎯 Project Goal
+
+The goal of this project is to build a comprehensive system to monitor water quality in Kutch by:
+
+- Collecting and preprocessing remote sensing data via Google Earth Engine.
+- Visualizing spatial and temporal water quality changes.
+- Predicting water quality using machine learning models.
+- Creating an interactive dashboard for insights and decision-making.
+
+---
+
+If you're a contributor or team member, ensure you **stick to the structure** and **maintain clarity and traceability** in your contributions. Happy collaborating! 💧
