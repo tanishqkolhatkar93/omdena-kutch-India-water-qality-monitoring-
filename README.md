@@ -3,7 +3,6 @@
 
 This is a collaborative Omdena project aimed at monitoring and predicting water quality in the Kutch region using satellite data from **Google Earth Engine**. By analyzing environmental and geographical parameters, the project visualizes and forecasts water quality, helping stakeholders make informed decisions.
 
-🔗 **Project Dashboard**: [Kutch Water Quality Monitoring](https://kutch-water-quality-monitoring.herokuapp.com/)
 
 ---
 
@@ -80,4 +79,4 @@ The goal of this project is to build a comprehensive system to monitor water qua
 
 ---
 
-If you're a contributor or team member, ensure you **stick to the structure** and **maintain clarity and traceability** in your contributions. Happy collaborating! 💧
+If you're a contributor or team member, ensure you **stick to the structure** and **maintain clarity and traceability** in your contributions. 💧
