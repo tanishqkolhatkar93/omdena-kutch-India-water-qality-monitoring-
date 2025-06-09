@@ -69,7 +69,7 @@ You can filter water quality predictions based on:
 ---
 ## Project Demo  
 
-![](images/screenshot.png)
+![](Screenshot 2025-06-09 112435.png)
 
 ## 🎯 Project Goal
 
