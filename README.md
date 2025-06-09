@@ -71,6 +71,8 @@ You can filter water quality predictions based on:
 
 ![](Screenshot%202025-06-09%20112435.png)
 ![](Screenshot%202025-06-09%20113916.png)
+![](Screenshot%202025-06-09%20113953.png)
+
 
 
 
