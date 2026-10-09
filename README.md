@@ -87,4 +87,4 @@ The goal of this project is to build a comprehensive system to monitor water qua
 
 ---
 
-If you're a contributor or team member, ensure you **stick to the structure** and **maintain clarity and traceability** in your contributions. 💧
+If you're a contributor or team member, ensure you **stick to the structure** and **maintain clarity and traceability** in your contributions.💧
